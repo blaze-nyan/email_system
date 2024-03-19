@@ -1,0 +1,54 @@
+.textbox-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.textbox textarea {
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  height: 150px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  resize: none;
+}
+
+.button-generate,
+.button-paste,
+.button-copy {
+  border: none;
+  background-color: #3653f8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.button-generate:hover,
+.button-paste:hover,
+.button-copy:hover {
+  background-color: #4c6bff;
+}
+
+.button-text {
+  display: block;
+}
+.copy-success-message {
+  display: inline-block;
+  color: rgb(57, 206, 31);
+  font-size: 14px;
+}
