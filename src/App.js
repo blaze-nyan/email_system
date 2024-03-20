@@ -3,6 +3,7 @@ import Nav from "./components/Nav/Nav";
 import Body from "./components/Body/Body";
 import Footer from "./components/Footer/Footer";
 import Background from "./components/Body/background/Background";
+import Landing from "./components/Pages/Landing";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <Body />
       <Footer />
+      {/* <Landing /> */}
     </div>
   );
 }
