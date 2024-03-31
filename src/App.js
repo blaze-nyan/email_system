@@ -1,20 +1,17 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Nav from "./components/Nav/Nav";
-import Body from "./components/Body/Body";
-import Footer from "./components/Footer/Footer";
-import Background from "./components/Body/background/Background";
-import Landing from "./components/Pages/Landing";
+import MainPage from "./components/MainPage/MainPage";
+import LandingPage from "./components/LandingPage/LandingPage";
 
 function App() {
   return (
-    <div className="App">
-      <Background />
-
-      <Nav />
-      <Body />
-      <Footer />
-      {/* <Landing /> */}
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />} />
+        <Route path="/MainPage" element={<MainPage />} />
+      </Routes>
+    </Router>
   );
 }
 

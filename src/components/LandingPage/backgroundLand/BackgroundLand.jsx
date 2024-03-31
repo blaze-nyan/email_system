@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Background() {
+function BackgroundLand() {
   return (
     <ul className="circles">
       <li></li>
@@ -28,4 +28,4 @@ function Background() {
   );
 }
 
-export default Background;
+export default BackgroundLand;

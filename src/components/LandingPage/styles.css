@@ -1,0 +1,227 @@
+.body {
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #242224;
+  margin: 0;
+  height: 480vh;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.letter-l {
+  margin-top: 100px;
+  top: 0;
+  width: 200px;
+  left: 50vw;
+
+  position: fixed;
+  left: 50vw;
+  margin-left: -85px;
+  margin-bottom: 20px;
+}
+
+.letter-a {
+  top: 0;
+  margin-top: 158px;
+  position: fixed;
+  left: 50vw;
+  margin-left: -83px;
+  width: 150px;
+}
+
+.letter-x {
+  top: 0;
+  margin-top: 65px;
+  position: fixed;
+  left: 50vw;
+  margin-left: -300px;
+  transform: scale(0.25);
+  transform-origin: 50% 50%;
+  width: 600px;
+  height: 600px;
+}
+
+.letter-x img {
+  width: 600px;
+  position: absolute;
+}
+
+.scrolldown {
+  bottom: 90px;
+  height: 40px;
+  position: fixed;
+  width: 300vw;
+  left: -100vw;
+  font-size: 40px;
+  text-align: center;
+}
+
+.oooh {
+  font-size: 150px;
+  position: absolute;
+  left: 0;
+  top: 140vh;
+  color: rgb(141, 191, 233);
+}
+
+.aaah {
+  font-size: 150px;
+  position: absolute;
+  right: 0;
+  top: 170vh;
+  color: rgb(141, 191, 233);
+}
+
+.wheee {
+  top: 230vh;
+  position: absolute;
+  left: 0;
+  height: 50px;
+  font-size: 100px;
+  color: rgb(141, 191, 233);
+}
+
+.downarrows {
+  bottom: 60px;
+  position: fixed;
+  left: 50vw;
+  width: 70px;
+  margin-left: -35px;
+  height: 26px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.downarrows img {
+  width: 70px;
+}
+
+.bubbles {
+  top: -100vh;
+  position: fixed;
+  -webkit-transform: translate3d(0, 0, 0);
+  z-index: 5;
+}
+
+.bubble {
+  width: 140px;
+  height: 140px;
+  opacity: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bubbles img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.bottombutton {
+  background: black;
+  width: 250px;
+  height: 70px;
+  background-size: 160px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  text-decoration: none;
+  position: absolute;
+  top: 425vh;
+  border-radius: 20px;
+  left: 50vw;
+  margin-left: -125px;
+  z-index: 100;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.bottombg {
+  background-color: #2730dc;
+  background-image: linear-gradient(160deg, #2730dc 10%, #040505 100%);
+  width: 100vw;
+  height: 100vh;
+  top: 380vh;
+  z-index: 50;
+  position: absolute;
+}
+
+/* .bubble.red {
+    background-image: url(./assets/me.png);
+  } */
+
+/* .bubble.blue {
+    background: #954444;
+  }
+
+  .bubble.yellow {
+    background: #18b648;
+  } */
+
+/* .zags {
+  margin-top: 250vh;
+  z-index: 100;
+  position: relative;
+  overflow: hidden;
+  height: 150vh;
+}
+
+.zag {
+  width: 100vw;
+  height: 150vh;
+  position: absolute;
+} */
+
+/* #pinkZag {
+    background-image: url(./assets/pink-zag.png);
+    background-size: 200px;
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+  }
+
+  #tealZag {
+    background-image: url(./assets/teal-zag.png);
+    background-size: 200px;
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+  }
+
+  #purpleZag {
+    background-image: url(./assets/purple-zag.png);
+    background-size: 200px;
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+  } */
+
+.bottom {
+  margin-top: 400vh;
+}
+.bottombutton {
+  /* From https://css.glass */
+  background: rgba(255, 253, 253, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 20px;
+  border: 1px solid blue;
+}
+@media (max-width: 770px) {
+  .bubble img {
+    width: 100px;
+    height: 100px;
+  }
+  .oooh {
+    font-size: 100px;
+  }
+  .aaah {
+    font-size: 100px;
+  }
+  .wheee {
+    font-size: 70px;
+  }
+}
