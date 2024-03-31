@@ -1,3 +1,6 @@
+#About this website
+This is school project. Our project name is EI. We build a simple website to interact with Ei. We use gemini ai api for Ei and we gave suitable prompts to gemini ai to act like a University ai assistant. Our goal is to generate email reply which will save time for our university staffs.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
