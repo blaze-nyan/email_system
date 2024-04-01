@@ -1,8 +1,19 @@
 footer {
   bottom: 0;
-  width: 100%;
-  background-color: #f0f0f0;
+  width: 97.5%;
+  text-align: center;
   padding: 5px 0;
   text-align: center;
   transition: bottom 0.3s;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(136, 135, 210, 0.3);
 }
+/* @media (max-width: 770px) {
+  footer {
+    display: none;
+  }
+} */
