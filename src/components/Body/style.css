@@ -122,4 +122,8 @@
   .survey {
     display: block;
   }
+  .button {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
 }
