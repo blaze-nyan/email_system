@@ -1,0 +1,121 @@
+.main-co {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.about-container {
+  width: 80%;
+
+  color: rgb(63, 69, 79);
+  /* transparent */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(136, 135, 210, 0.3);
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.member-co {
+  background: rgba(69, 79, 109, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(136, 135, 210, 0.3);
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.member-title {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.members {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.member {
+  display: flex;
+  flex-direction: row;
+
+  width: auto;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.role {
+  width: 140px;
+}
+.text-only {
+  margin-top: 20px;
+  text-align: justify;
+}
+.text-title {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.paragraph {
+  margin-bottom: 20px;
+}
+@media (max-width: 1060px) {
+  .member-co {
+    width: 90%;
+  }
+  /* .member-title {
+    font-size: 18px;
+  }
+  .members {
+    font-size: 14px;
+  } */
+}
+@media (max-width: 650px) {
+  .member-co {
+    width: 100%;
+  }
+}
+@media (max-width: 585px) {
+  .main-co {
+    padding: 10px;
+  }
+  .about-container {
+    width: 97%;
+    padding: 10px;
+  }
+}
+@media (max-width: 448px) {
+  .title {
+    font-size: 12px;
+  }
+  .member-title,
+  .text-title {
+    font-size: 16px;
+  }
+  .members {
+    font-size: 12px;
+  }
+  .paragraph,
+  .work {
+    font-size: 12px;
+  }
+}

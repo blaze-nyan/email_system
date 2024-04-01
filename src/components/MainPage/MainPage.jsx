@@ -9,7 +9,10 @@ export default function MainPage() {
     <div className="blue">
       <Background />
       <Nav />
-      <Body />
+      <div className="center">
+        <Body />
+        <Footer />
+      </div>
     </div>
   );
 }

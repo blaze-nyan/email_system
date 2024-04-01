@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer>
-      <p>@RSU Auto Email Response System</p>
+      <p>2024 © DEVELOPED BY WICKED-7 </p>
     </footer>
   );
 }

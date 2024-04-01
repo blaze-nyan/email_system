@@ -26,26 +26,31 @@
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4); /* Increase shadow on hover for depth */
 }
 
-.navbar ul li a.active {
-  background-color: #75c5ce; /* Set the active background color */
-  border: 1px solid #75c5ce; /* Set the active border color */
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4); /* Increase shadow for depth */
-}
+/* .navbar ul li a.active {
+  background-color: #75c5ce;
+  border: 1px solid #75c5ce;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4); 
+} */
 
 .logo {
   margin-right: 20px;
-  background-color: #f0f0f0;
+  background-color: transparent;
   border-radius: 10px;
   padding: 0;
-  width: 100px;
-  height: 40px;
+  width: auto;
+  height: auto;
 }
 
 .logo img {
-  width: 100px;
+  width: 50px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .navbar ul {
@@ -68,6 +73,16 @@
 
 .navbar ul li a:hover {
   color: #555;
+}
+.navbar ul li a:active {
+  background-color: #75c5ce;
+  border: 1px solid #75c5ce;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+Link:active {
+  background-color: #75c5ce;
+  border: 1px solid #75c5ce;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 .mobile-icon {
   display: none;
@@ -107,7 +122,11 @@
 }
 
 .menu-chat {
-  background-color: #4e54c8;
+  background-color: transparent;
+}
+.mobile-button {
+  background: none;
+  border: none;
 }
 
 @media (max-width: 770px) {
@@ -116,8 +135,9 @@
   }
   .mobile-icon {
     display: block;
-    border: solid 1px #4e54c8;
+    border: none;
     width: 30px;
+    background: none;
   }
   .logo-nav-container {
     display: flex;
