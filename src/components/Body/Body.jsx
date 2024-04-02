@@ -142,7 +142,7 @@ function Body() {
               onClick={generateEmail}
               disabled={loading}
             >
-              {buttonText}
+              <span className="button-text">{buttonText}</span>
             </button>
             <button className="button-clear button">
               <span className="button-text" onClick={handleClear}>
