@@ -46,6 +46,7 @@
   margin-bottom: 10px;
   border-radius: 10px;
   resize: none;
+  font-size: 18px;
 
   background: rgba(45, 75, 224, 0.1);
   border-radius: 16px;
@@ -77,6 +78,7 @@
 
 .button-text {
   display: block;
+  font-size: 18px;
 }
 .copy-success-message {
   display: inline-block;
@@ -87,6 +89,17 @@
 .TeamTag,
 .survey {
   display: none;
+}
+@media (max-width: 870px) {
+  .button {
+    padding: 5px 10px;
+  }
+  .button-text {
+    font-size: 16px;
+  }
+  .textbox textarea {
+    font-size: 16px;
+  }
 }
 @media (max-width: 770px) {
   .container {
@@ -104,6 +117,7 @@
   }
   .textbox textarea {
     height: 150px;
+    font-size: 14px;
   }
   .textbox textarea:active {
     border: 1px solid #4c6bff;
@@ -124,6 +138,8 @@
   }
   .button {
     padding: 5px 10px;
+  }
+  .button-text {
     font-size: 16px;
   }
 }
